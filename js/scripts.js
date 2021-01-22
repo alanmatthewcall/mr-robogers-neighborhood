@@ -11,7 +11,11 @@
 //Test: "It returns range of numbers up to inputted number"
 //Expect(0, Beep, Boop, Wont you be my neighbor, 4, 5(5)).toEqual(true);
 
-const number
+// Buisness Logic
+
+const numberOne = ["Beep!"]
+const numberTwo = ["Boop!"]
+const numberThree = ["Won't you be my neighbor?"]  
 
 
 
@@ -26,13 +30,13 @@ const number
 
 
 
-
-
+// User Interface Logic
 
 $(document).ready(function() {
-  $("#form-one").submit(function(event) {
+  $("form#form-one").submit(function(event) {
   event.preventDefault();
-  $("response").text(result);
+  if (#entered-number === 1)
+  $("#output").show();
   });
 }); 
 
