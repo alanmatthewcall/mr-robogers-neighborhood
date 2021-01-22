@@ -1,5 +1,6 @@
 .form-group {
   margin: 100px;
+  text-align: center;
 }
 
 .submit-btn {
@@ -8,7 +9,7 @@
 
 .title {
   text-align: center;
-  margin: 75px;
+  margin: 20px;
 }
 
 #output {
