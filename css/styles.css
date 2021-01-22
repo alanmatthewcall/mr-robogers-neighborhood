@@ -2,6 +2,11 @@
   margin: 100px;
 }
 
-.submit {
+.submit-btn {
   text-align: center;
+}
+
+.title {
+  text-align: center;
+  margin: 75px;
 }

@@ -11,10 +11,31 @@
 //Test: "It returns range of numbers up to inputted number"
 //Expect(0, Beep, Boop, Wont you be my neighbor, 4, 5(5)).toEqual(true);
 
+const number
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 $(document).ready(function() {
-  $("form#form-one").submit(function(event) {
+  $("#form-one").submit(function(event) {
   event.preventDefault();
+  $("response").text(result);
   });
-});  
+}); 
+
+
 
 
