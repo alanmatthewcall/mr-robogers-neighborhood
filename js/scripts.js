@@ -13,12 +13,8 @@
 
 $(document).ready(function() {
   $("form#form-one").submit(function(event) {
-  });
-});
-    
-
-  const numberOne = 1;
-  const Beep! = parseInt(numberOne);
-
   event.preventDefault();
+  });
+});  
+
 
