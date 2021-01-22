@@ -1,6 +1,5 @@
 //          Tests
 
-
 //Describe: replacesDigits()
 //Test: "It replaces the number 1 with Beep"
 //Expect(isBeep(1)).toEqual(true);
@@ -20,28 +19,13 @@
 
 //       Buisness Logic
 
-const 1 = "Beep";
-
-const 2 = ["Boop!"];
-
-const 3 = ["Won't you be my neighbor?"] ;
-  return 1;
-}
-
-let array = [];
-  array.forEach(function(number) { 
-}
-
-
-
-
-
+const 1 = ["beep!"];
+const 2 = ["boop!"];
+const 3 = ["won't you be my neighbor?"];
 
 
 
 //      User Interface Logic
-
-
 
 
 $(document).ready(function() {
