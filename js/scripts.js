@@ -15,13 +15,9 @@
 
 //       Buisness Logic
 
-//const numberOne = ["1"];
-//const numberTwo = ["2"];
-//const numberThree = ["3"];
-
-
-const numberOne = "1"
-newNumberOne.replace(/[1]/, "beep!");
+const numberOne = ["1"];
+const numberTwo = ["2"];
+const numberThree = ["3"];
 
 if (enteredNumber === 3) {
   $("Won't you be my neighbor?").show();

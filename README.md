@@ -1,6 +1,6 @@
-# **Programming Language Selector**
+# **MR Robogers Neighborhood**
 
-## Built to choose a programming language 
+## Built to allow user to input a number and display a string of numbers 
 
 #### *By: _Alan Call_*
 
@@ -15,7 +15,7 @@
 
 ## Description
 
-This website will ask a user to answer 5 basic true or false questions. Depending on the answers they input, the website will provide them 4 different outcomes.
+This website will ask a user to input a number and will return a string of numbers changing 1 to Beep 2 to Boop and 3 to Won't you be my neighbor?
 
 ## Setup
 
@@ -31,7 +31,7 @@ This website will ask a user to answer 5 basic true or false questions. Dependin
 
 ## Known Bugs
 
-- No known issues
+- DOES NOT WORK
 
 ## License
 
