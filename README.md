@@ -1,4 +1,7 @@
-# **MR Robogers Neighborhood**
+## **MR. Robogers Neighborhood**
+
+
+# **CURRENTLY DOES NOT WORK** 
 
 ## Built to allow user to input a number and display a string of numbers 
 
@@ -25,10 +28,6 @@ This website will ask a user to input a number and will return a string of numbe
 
 - Open file index.html in your browser.
 
-## OR
-
-[View Here](https://alanmatthewcall.github.io/programing-language-selector/)
-
 ## Known Bugs
 
 - DOES NOT WORK
@@ -43,4 +42,4 @@ Copyright (c) Alan Call
  * Alan Call alanmatthewcall@gmail.com
 
  
- ![README SCREENSHOT](images/readme-screenshot.png)
+

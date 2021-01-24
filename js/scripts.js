@@ -17,24 +17,32 @@
 
 function numberMatch(element) {
   let firstEnteredNumber = [];
-   enteredNumber = firstEnteredNumber.tostring();
+  enteredNumber = firstEnteredNumber.toString();
   for (i = 0; i <= element; i++) {
     if (enteredNumber.includes("1")) {
       enteredNumber.replace(re, "Beep!");
+      console.log(works);
     } else if (enteredNumber.includes("2")) {
       enteredNumber.replace(re, "Boop!");
     } else if (enteredNumber.includes("3")) {
       enteredNumber.replace(re, "Won't you be my neighbor");
     } else {
-      numberMatch;
+      numberMatch();
     }
-    return numberMatch;
+    return enteredNumber;
   }
-}
+};
 
 //         UI Logic
 
-
+$(document).ready(function () {
+  $("#inputForm").submit(function (event) {
+    event.preventDefault();
+    const inputtedNumber = $("#enteredNumber").val();
+    let result = numberMatch(inputtedNumber);
+    $("#output").show()
+  });
+});
 
 
 
