@@ -15,36 +15,8 @@
 
 //       Buisness Logic
 
-const number1 = [];
-const number2 = [];
-const number3 = [];
-
-const enteredNumber = parseInt($("input#numberinput")).val());
-
-function matchedNumber(element) {
-  for (let i = 0; i <= enteredNumber; i++) {
-    const element = i.toString();
-    if (enteredNumber === 3) {
-      $("Won't you be my neighbor?").show();
-    } else if (enteredNumber === 2) {
-      $("boop!").show();
-    } else if (enteredNumber === 1) {
-      $("beep!").show();
-    }
-  }
-
-  return
 
 
 
-  //      User Interface Logic
 
-
-  $(document).ready(function () {
-    $("#enteredNumber").submit(function (event) {
-      event.preventDefault();
-      //.map(function(element);
-      return matchedNumber(element);
-    });
-  });
 
