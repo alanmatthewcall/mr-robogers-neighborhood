@@ -15,6 +15,19 @@
 
 //       Buisness Logic
 
+function numberMatch(input) {
+  let enteredNumber = [];
+  for (i = 0; i <= input; i++) {
+    enteredNumber.toString();
+    enteredNumber.push("[input]");
+    if (enteredNumber[input].match("[1]")) {
+      enteredNumber[input] = ("Beep!");
+  
+  }
+}
+
+
+//         UI Logic
 
 
 
