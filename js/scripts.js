@@ -15,17 +15,22 @@
 
 //       Buisness Logic
 
-function numberMatch(input) {
-  let enteredNumber = [];
-  for (i = 0; i <= input; i++) {
-    enteredNumber.toString();
-    enteredNumber.push("[input]");
-    if (enteredNumber[input].match("[1]")) {
-      enteredNumber[input] = ("Beep!");
-  
+function numberMatch(element) {
+  let firstEnteredNumber = [];
+   enteredNumber = firstEnteredNumber.tostring();
+  for (i = 0; i <= element; i++) {
+    if (enteredNumber.includes("1")) {
+      enteredNumber.replace(re, "Beep!");
+    } else if (enteredNumber.includes("2")) {
+      enteredNumber.replace(re, "Boop!");
+    } else if (enteredNumber.includes("3")) {
+      enteredNumber.replace(re, "Won't you be my neighbor");
+    } else {
+      numberMatch;
+    }
+    return numberMatch;
   }
 }
-
 
 //         UI Logic
 
