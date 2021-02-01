@@ -1,46 +1,39 @@
-//          Tests
-
-//Describe: replacesDigits()
-//Test: "It replaces the number 1 with Beep"
-//Expect(isBeep(1)).toEqual(true);
-
-//Test: "It replaces the number 2 with Boop"
-//Expect(isBoop(2)).toEqual(true);
-
-//Test: "It replaces the number 3 with Won't you be my neighbor?"
-//Expect(isWontYouBeMyNeighbor(3)).toEqual(true);
-
-//Test: "It returns range of numbers up to inputted number"
-//Expect(0, Beep, Boop, Wont you be my neighbor, 4, 5(5)).toEqual(true);
-
 //       Buisness Logic
 
-function numberMatch(element) {
+let numberMatch = function (element) {
   let firstEnteredNumber = [];
-  enteredNumber = firstEnteredNumber.toString();
-  for (i = 0; i <= element; i++) {
-    if (enteredNumber.includes("1")) {
-      enteredNumber.replace(re, "Beep!");
-      console.log(works);
-    } else if (enteredNumber.includes("2")) {
-      enteredNumber.replace(re, "Boop!");
-    } else if (enteredNumber.includes("3")) {
-      enteredNumber.replace(re, "Won't you be my neighbor");
+  for (index = 0; index <= element; index++) {
+    firstEnteredNumber.push(index.toString());
+  };
+
+  const three = "Won't you be my neighbor?"
+  const two = "Boop!"
+  const one = "Beep!"
+
+  let numberMatch = firstEnteredNumber.map(function (newValue) {
+    if (newValue.includes("3")) {
+      return newValue = three;
+    } else if (newValue.includes("2")) {
+      return newValue = two;
+    } else if (newValue.includes("1")) {
+      return newValue = one;
     } else {
-      numberMatch();
-    }
-    return enteredNumber;
-  }
+      return newValue;
+    };
+  });
+  return numberMatch;
 };
+
 
 //         UI Logic
 
 $(document).ready(function () {
   $("#inputForm").submit(function (event) {
     event.preventDefault();
-    const inputtedNumber = $("#enteredNumber").val();
-    let result = numberMatch(inputtedNumber);
-    $("#output").show()
+    let element = parseInt($("#enteredNumber").val());
+    let output = numberMatch(element);
+    $("#results").text(output);
+    $("#output").show();
   });
 });
 
